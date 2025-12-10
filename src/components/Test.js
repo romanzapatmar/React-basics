@@ -1,10 +1,13 @@
-//added by Roman for roman's branch
 import React from 'react'
 
-const Test = () => {
+function Test(props) {
+ 
   return (
-    <div>Test</div>
+    <>
+     <h1>Hello, {props.name}</h1>
+     <h2>Your name is{props.age}</h2>
+    </>
   )
 }
 
-export default Test;
+export default Test
